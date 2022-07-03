@@ -256,6 +256,21 @@ main {
         font-weight: bolder;
         border-color: #adade0; }
 
+.container .row {
+  margin-top: 6em;
+  border-right: solid;
+  border-left: solid;
+  border-width: 0.4em;
+  border-radius: 10%; }
+  .container .row .col-6 {
+    padding-left: 3em;
+    padding-right: 2em;
+    list-style: none;
+    text-align: center;
+    padding-top: 1em; }
+  .container .row h2 {
+    height: 5em; }
+
 footer {
   height: 5.33333vh;
   padding-bottom: 7em;
@@ -350,4 +365,15 @@ footer {
       main .librosJb .librosJb__carousel .carousel-inner {
         width: 20em; }
   main form {
-    padding-top: 8em; } }
+    padding-top: 8em; }
+  .container .row {
+    padding-top: 4em;
+    border-right: none;
+    border-left: none;
+    border-width: 0.4em;
+    border-radius: 10%; }
+    .container .row .col-6 {
+      padding-left: 0;
+      padding-right: 0;
+      list-style: none;
+      text-align: center; } }
